@@ -1,0 +1,903 @@
+nan@nan-ThinkPad-T540p:~/StanfordCS231/assignment1$ source .env/bin/activate 
+(.env) nan@nan-ThinkPad-T540p:~/StanfordCS231/assignment1$ pip3 install -r requirements.txt 
+Collecting Cython==0.23.4 (from -r requirements.txt (line 1))
+  Downloading Cython-0.23.4-cp35-cp35m-manylinux1_x86_64.whl (6.2MB)
+    100% |████████████████████████████████| 6.2MB 302kB/s 
+Collecting Jinja2==2.8 (from -r requirements.txt (line 2))
+  Downloading Jinja2-2.8-py2.py3-none-any.whl (263kB)
+    100% |████████████████████████████████| 266kB 2.7MB/s 
+Collecting MarkupSafe==0.23 (from -r requirements.txt (line 3))
+  Downloading MarkupSafe-0.23.tar.gz
+Collecting Pillow==3.0.0 (from -r requirements.txt (line 4))
+  Downloading Pillow-3.0.0.zip (9.9MB)
+    100% |████████████████████████████████| 10.0MB 201kB/s 
+Collecting Pygments==2.0.2 (from -r requirements.txt (line 5))
+  Downloading Pygments-2.0.2-py3-none-any.whl (672kB)
+    100% |████████████████████████████████| 675kB 1.6MB/s 
+Collecting appnope==0.1.0 (from -r requirements.txt (line 6))
+  Downloading appnope-0.1.0-py2.py3-none-any.whl
+Collecting argparse==1.2.1 (from -r requirements.txt (line 7))
+  Downloading argparse-1.2.1.tar.gz (69kB)
+    100% |████████████████████████████████| 71kB 2.7MB/s 
+Collecting backports-abc==0.4 (from -r requirements.txt (line 8))
+  Downloading backports_abc-0.4-py2.py3-none-any.whl
+Collecting backports.ssl-match-hostname==3.5.0.1 (from -r requirements.txt (line 9))
+  Downloading backports.ssl_match_hostname-3.5.0.1.tar.gz
+Collecting certifi==2015.11.20.1 (from -r requirements.txt (line 10))
+  Downloading certifi-2015.11.20.1-py2.py3-none-any.whl (368kB)
+    100% |████████████████████████████████| 378kB 2.1MB/s 
+Collecting cycler==0.10.0 (from -r requirements.txt (line 11))
+  Downloading cycler-0.10.0-py2.py3-none-any.whl
+Collecting decorator==4.0.6 (from -r requirements.txt (line 12))
+  Downloading decorator-4.0.6-py2.py3-none-any.whl
+Collecting future==0.16.0 (from -r requirements.txt (line 13))
+  Downloading future-0.16.0.tar.gz (824kB)
+    100% |████████████████████████████████| 829kB 1.4MB/s 
+Collecting gnureadline==6.3.3 (from -r requirements.txt (line 14))
+  Downloading gnureadline-6.3.3.tar.gz (2.5MB)
+    100% |████████████████████████████████| 2.5MB 665kB/s 
+Collecting ipykernel==4.2.2 (from -r requirements.txt (line 15))
+  Downloading ipykernel-4.2.2-py2.py3-none-any.whl (91kB)
+    100% |████████████████████████████████| 92kB 2.6MB/s 
+Collecting ipython==4.0.1 (from -r requirements.txt (line 16))
+  Downloading ipython-4.0.1-py3-none-any.whl (730kB)
+    100% |████████████████████████████████| 737kB 1.6MB/s 
+Collecting ipython-genutils==0.1.0 (from -r requirements.txt (line 17))
+  Downloading ipython_genutils-0.1.0-py2.py3-none-any.whl
+Collecting ipywidgets==4.1.1 (from -r requirements.txt (line 18))
+  Downloading ipywidgets-4.1.1-py2.py3-none-any.whl (117kB)
+    100% |████████████████████████████████| 122kB 2.8MB/s 
+Collecting jsonschema==2.5.1 (from -r requirements.txt (line 19))
+  Downloading jsonschema-2.5.1-py2.py3-none-any.whl
+Collecting jupyter==1.0.0 (from -r requirements.txt (line 20))
+  Downloading jupyter-1.0.0-py2.py3-none-any.whl
+Collecting jupyter-client==4.1.1 (from -r requirements.txt (line 21))
+  Downloading jupyter_client-4.1.1-py2.py3-none-any.whl (70kB)
+    100% |████████████████████████████████| 71kB 2.6MB/s 
+Collecting jupyter-console==4.0.3 (from -r requirements.txt (line 22))
+  Downloading jupyter_console-4.0.3-py2.py3-none-any.whl
+Collecting jupyter-core==4.0.6 (from -r requirements.txt (line 23))
+  Downloading jupyter_core-4.0.6-py2.py3-none-any.whl (74kB)
+    100% |████████████████████████████████| 81kB 3.0MB/s 
+Collecting matplotlib==2.0.0 (from -r requirements.txt (line 24))
+  Downloading matplotlib-2.0.0-1-cp35-cp35m-manylinux1_x86_64.whl (14.7MB)
+    100% |████████████████████████████████| 14.7MB 135kB/s 
+Collecting mistune==0.7.1 (from -r requirements.txt (line 25))
+  Downloading mistune-0.7.1-py2.py3-none-any.whl
+Collecting nbconvert==4.1.0 (from -r requirements.txt (line 26))
+  Downloading nbconvert-4.1.0-py2.py3-none-any.whl (281kB)
+    100% |████████████████████████████████| 286kB 2.3MB/s 
+Collecting nbformat==4.0.1 (from -r requirements.txt (line 27))
+  Downloading nbformat-4.0.1-py2.py3-none-any.whl (138kB)
+    100% |████████████████████████████████| 143kB 2.5MB/s 
+Collecting notebook==4.0.6 (from -r requirements.txt (line 28))
+  Downloading notebook-4.0.6-py2.py3-none-any.whl (5.6MB)
+    100% |████████████████████████████████| 5.6MB 358kB/s 
+Collecting numpy==1.10.4 (from -r requirements.txt (line 29))
+  Downloading numpy-1.10.4-cp35-cp35m-manylinux1_x86_64.whl (15.3MB)
+    100% |████████████████████████████████| 15.3MB 129kB/s 
+Collecting path.py==8.1.2 (from -r requirements.txt (line 30))
+  Downloading path.py-8.1.2-py2.py3-none-any.whl
+Collecting pexpect==4.0.1 (from -r requirements.txt (line 31))
+  Downloading pexpect-4.0.1.tar.gz (143kB)
+    100% |████████████████████████████████| 153kB 2.3MB/s 
+Collecting pickleshare==0.5 (from -r requirements.txt (line 32))
+  Downloading pickleshare-0.5.tar.gz
+Collecting ptyprocess==0.5 (from -r requirements.txt (line 33))
+  Downloading ptyprocess-0.5.tar.gz
+Collecting pyparsing==2.0.7 (from -r requirements.txt (line 34))
+  Downloading pyparsing-2.0.7-py2.py3-none-any.whl
+Collecting python-dateutil==2.4.2 (from -r requirements.txt (line 35))
+  Downloading python_dateutil-2.4.2-py2.py3-none-any.whl (188kB)
+    100% |████████████████████████████████| 194kB 2.1MB/s 
+Collecting pytz==2015.7 (from -r requirements.txt (line 36))
+  Downloading pytz-2015.7-py2.py3-none-any.whl (476kB)
+    100% |████████████████████████████████| 481kB 1.6MB/s 
+Collecting pyzmq==15.1.0 (from -r requirements.txt (line 37))
+  Downloading pyzmq-15.1.0.zip (1.5MB)
+    100% |████████████████████████████████| 1.5MB 914kB/s 
+Collecting qtconsole==4.1.1 (from -r requirements.txt (line 38))
+  Downloading qtconsole-4.1.1-py2.py3-none-any.whl (98kB)
+    100% |████████████████████████████████| 102kB 2.3MB/s 
+Collecting scipy==0.16.1 (from -r requirements.txt (line 39))
+  Downloading scipy-0.16.1-cp35-cp35m-manylinux1_x86_64.whl (39.7MB)
+    100% |████████████████████████████████| 39.7MB 52kB/s 
+Collecting simplegeneric==0.8.1 (from -r requirements.txt (line 40))
+  Downloading simplegeneric-0.8.1.zip
+Collecting singledispatch==3.4.0.3 (from -r requirements.txt (line 41))
+  Downloading singledispatch-3.4.0.3-py2.py3-none-any.whl
+Collecting site==0.0.1 (from -r requirements.txt (line 42))
+  Downloading site-0.0.1.tar.gz
+Collecting six==1.10.0 (from -r requirements.txt (line 43))
+  Downloading six-1.10.0-py2.py3-none-any.whl
+Collecting terminado==0.5 (from -r requirements.txt (line 44))
+  Downloading terminado-0.5.tar.gz
+Collecting tornado==4.3 (from -r requirements.txt (line 45))
+  Downloading tornado-4.3.tar.gz (450kB)
+    100% |████████████████████████████████| 460kB 1.8MB/s 
+Collecting traitlets==4.0.0 (from -r requirements.txt (line 46))
+  Downloading traitlets-4.0.0-py2.py3-none-any.whl (56kB)
+    100% |████████████████████████████████| 61kB 3.5MB/s 
+Building wheels for collected packages: MarkupSafe, Pillow, argparse, backports.ssl-match-hostname, future, gnureadline, pexpect, pickleshare, ptyprocess, pyzmq, simplegeneric, site, terminado, tornado
+  Running setup.py bdist_wheel for MarkupSafe ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/a3/fa/dc/0198eed9ad95489b8a4f45d14dd5d2aee3f8984e46862c5748
+  Running setup.py bdist_wheel for Pillow ... error
+  Complete output from command /home/nan/StanfordCS231/assignment1/.env/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-j7028rsn/Pillow/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/tmpx0hlrow7pip-wheel- --python-tag cp35:
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-3.5
+  creating build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PalmImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PcfFontFile.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/MpegImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/TgaImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageStat.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageCms.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageFont.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImtImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/WmfImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/MpoImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/JpegPresets.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageDraw.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PpmImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/TarIO.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/OleFileIO.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/BufrStubImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/SgiImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PcdImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageSequence.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageOps.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/IcnsImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/FpxImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/IcoImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/_util.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/MicImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PcxImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PixarImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/BmpImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/IptcImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/__init__.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/Image.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageGrab.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageFilter.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PaletteFile.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PngImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ContainerIO.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/Jpeg2KImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/SpiderImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PyAccess.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/GimpGradientFile.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/_binary.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageShow.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageTk.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/FliImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/XpmImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageMath.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/WebPImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/XVThumbImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ExifTags.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/FitsStubImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageDraw2.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/TiffImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImagePalette.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PSDraw.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageQt.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/MspImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageChops.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PsdImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/BdfFontFile.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageTransform.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/GimpPaletteFile.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/WalImageFile.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/XbmImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageMode.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageFile.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/EpsImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/GbrImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageWin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/features.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/TiffTags.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/GifImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/CurImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageEnhance.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageColor.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/GdImageFile.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/JpegImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/SunImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImagePath.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/DcxImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/PdfImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/GribStubImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/McIdasImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/FontFile.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/ImageMorph.py -> build/lib.linux-x86_64-3.5/PIL
+  copying PIL/Hdf5StubImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+  running egg_info
+  writing Pillow.egg-info/PKG-INFO
+  writing top-level names to Pillow.egg-info/top_level.txt
+  writing dependency_links to Pillow.egg-info/dependency_links.txt
+  reading manifest file 'Pillow.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  writing manifest file 'Pillow.egg-info/SOURCES.txt'
+  copying PIL/OleFileIO-README.md -> build/lib.linux-x86_64-3.5/PIL
+  running build_ext
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "/tmp/pip-build-j7028rsn/Pillow/setup.py", line 767, in <module>
+      zip_safe=not debug_build(),
+    File "/usr/lib/python3.5/distutils/core.py", line 148, in setup
+      dist.run_commands()
+    File "/usr/lib/python3.5/distutils/dist.py", line 955, in run_commands
+      self.run_command(cmd)
+    File "/usr/lib/python3.5/distutils/dist.py", line 974, in run_command
+      cmd_obj.run()
+    File "/home/nan/StanfordCS231/assignment1/.env/lib/python3.5/site-packages/wheel/bdist_wheel.py", line 179, in run
+      self.run_command('build')
+    File "/usr/lib/python3.5/distutils/cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "/usr/lib/python3.5/distutils/dist.py", line 974, in run_command
+      cmd_obj.run()
+    File "/usr/lib/python3.5/distutils/command/build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "/usr/lib/python3.5/distutils/cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "/usr/lib/python3.5/distutils/dist.py", line 974, in run_command
+      cmd_obj.run()
+    File "/usr/lib/python3.5/distutils/command/build_ext.py", line 338, in run
+      self.build_extensions()
+    File "/tmp/pip-build-j7028rsn/Pillow/setup.py", line 515, in build_extensions
+      % (f, f))
+  ValueError: --enable-jpeg requested but jpeg not found, aborting.
+  
+  ----------------------------------------
+  Failed building wheel for Pillow
+  Running setup.py clean for Pillow
+  Running setup.py bdist_wheel for argparse ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/0c/98/89/7494d5db3af34dc96bba5bff3bf8a8f38eeeab5291ec174cc3
+  Running setup.py bdist_wheel for backports.ssl-match-hostname ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/5d/72/36/b2a31507b613967b728edc33378a5ff2ada0f62855b93c5ae1
+  Running setup.py bdist_wheel for future ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/c2/50/7c/0d83b4baac4f63ff7a765bd16390d2ab43c93587fac9d6017a
+  Running setup.py bdist_wheel for gnureadline ... error
+  Complete output from command /home/nan/StanfordCS231/assignment1/.env/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-j7028rsn/gnureadline/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d /tmp/tmplmtw0mi6pip-wheel- --python-tag cp35:
+  
+  ============ Building the readline library ============
+  
+  readline-6.3/
+  readline-6.3/doc/
+  readline-6.3/doc/Makefile.in
+  readline-6.3/doc/texinfo.tex
+  readline-6.3/doc/version.texi
+  readline-6.3/doc/fdl.texi
+  readline-6.3/doc/rlman.texi
+  readline-6.3/doc/rltech.texi
+  readline-6.3/doc/rluser.texi
+  readline-6.3/doc/rluserman.texi
+  readline-6.3/doc/history.texi
+  readline-6.3/doc/hstech.texi
+  readline-6.3/doc/hsuser.texi
+  readline-6.3/doc/readline.3
+  readline-6.3/doc/history.3
+  readline-6.3/doc/texi2dvi
+  readline-6.3/doc/texi2html
+  readline-6.3/doc/readline.ps
+  readline-6.3/doc/history.ps
+  readline-6.3/doc/rluserman.ps
+  readline-6.3/doc/readline.dvi
+  readline-6.3/doc/history.dvi
+  readline-6.3/doc/rluserman.dvi
+  readline-6.3/doc/readline.info
+  readline-6.3/doc/history.info
+  readline-6.3/doc/rluserman.info
+  readline-6.3/doc/readline.html
+  readline-6.3/doc/history.html
+  readline-6.3/doc/rluserman.html
+  readline-6.3/doc/readline.0
+  readline-6.3/doc/history.0
+  readline-6.3/doc/readline_3.ps
+  readline-6.3/doc/history_3.ps
+  readline-6.3/doc/history.pdf
+  readline-6.3/doc/readline.pdf
+  readline-6.3/doc/rluserman.pdf
+  readline-6.3/examples/
+  readline-6.3/examples/autoconf/
+  readline-6.3/examples/autoconf/BASH_CHECK_LIB_TERMCAP
+  readline-6.3/examples/autoconf/RL_LIB_READLINE_VERSION
+  readline-6.3/examples/autoconf/wi_LIB_READLINE
+  readline-6.3/examples/rlfe/
+  readline-6.3/examples/rlfe/ChangeLog
+  readline-6.3/examples/rlfe/Makefile.in
+  readline-6.3/examples/rlfe/README
+  readline-6.3/examples/rlfe/config.h.in
+  readline-6.3/examples/rlfe/configure
+  readline-6.3/examples/rlfe/configure.in
+  readline-6.3/examples/rlfe/extern.h
+  readline-6.3/examples/rlfe/os.h
+  readline-6.3/examples/rlfe/pty.c
+  readline-6.3/examples/rlfe/rlfe.c
+  readline-6.3/examples/rlfe/screen.h
+  readline-6.3/examples/Makefile.in
+  readline-6.3/examples/excallback.c
+  readline-6.3/examples/fileman.c
+  readline-6.3/examples/manexamp.c
+  readline-6.3/examples/readlinebuf.h
+  readline-6.3/examples/rl-fgets.c
+  readline-6.3/examples/rlcat.c
+  readline-6.3/examples/rlevent.c
+  readline-6.3/examples/rltest.c
+  readline-6.3/examples/rl-callbacktest.c
+  readline-6.3/examples/rl.c
+  readline-6.3/examples/rlptytest.c
+  readline-6.3/examples/rlversion.c
+  readline-6.3/examples/histexamp.c
+  readline-6.3/examples/hist_erasedups.c
+  readline-6.3/examples/hist_purgecmd.c
+  readline-6.3/examples/Inputrc
+  readline-6.3/examples/rlwrap-0.30.tar.gz
+  readline-6.3/support/
+  readline-6.3/support/config.guess
+  readline-6.3/support/config.rpath
+  readline-6.3/support/config.sub
+  readline-6.3/support/install.sh
+  readline-6.3/support/mkdirs
+  readline-6.3/support/mkdist
+  readline-6.3/support/mkinstalldirs
+  readline-6.3/support/shobj-conf
+  readline-6.3/support/shlib-install
+  readline-6.3/support/wcwidth.c
+  readline-6.3/shlib/
+  readline-6.3/shlib/Makefile.in
+  readline-6.3/COPYING
+  readline-6.3/README
+  readline-6.3/MANIFEST
+  readline-6.3/INSTALL
+  readline-6.3/CHANGELOG
+  readline-6.3/CHANGES
+  readline-6.3/NEWS
+  readline-6.3/USAGE
+  readline-6.3/aclocal.m4
+  readline-6.3/config.h.in
+  readline-6.3/configure
+  readline-6.3/configure.ac
+  readline-6.3/Makefile.in
+  readline-6.3/ansi_stdlib.h
+  readline-6.3/chardefs.h
+  readline-6.3/colors.h
+  readline-6.3/history.h
+  readline-6.3/histlib.h
+  readline-6.3/keymaps.h
+  readline-6.3/parse-colors.h
+  readline-6.3/rlconf.h
+  readline-6.3/posixdir.h
+  readline-6.3/posixjmp.h
+  readline-6.3/posixselect.h
+  readline-6.3/posixstat.h
+  readline-6.3/readline.h
+  readline-6.3/rldefs.h
+  readline-6.3/rlmbutil.h
+  readline-6.3/rlprivate.h
+  readline-6.3/rlshell.h
+  readline-6.3/rlstdc.h
+  readline-6.3/rltty.h
+  readline-6.3/rltypedefs.h
+  readline-6.3/rlwinsize.h
+  readline-6.3/tcap.h
+  readline-6.3/tilde.h
+  readline-6.3/xmalloc.h
+  readline-6.3/bind.c
+  readline-6.3/callback.c
+  readline-6.3/colors.c
+  readline-6.3/compat.c
+  readline-6.3/complete.c
+  readline-6.3/display.c
+  readline-6.3/emacs_keymap.c
+  readline-6.3/funmap.c
+  readline-6.3/input.c
+  readline-6.3/isearch.c
+  readline-6.3/keymaps.c
+  readline-6.3/kill.c
+  readline-6.3/macro.c
+  readline-6.3/mbutil.c
+  readline-6.3/misc.c
+  readline-6.3/nls.c
+  readline-6.3/parens.c
+  readline-6.3/parse-colors.c
+  readline-6.3/readline.c
+  readline-6.3/rltty.c
+  readline-6.3/savestring.c
+  readline-6.3/search.c
+  readline-6.3/shell.c
+  readline-6.3/signals.c
+  readline-6.3/terminal.c
+  readline-6.3/text.c
+  readline-6.3/tilde.c
+  readline-6.3/undo.c
+  readline-6.3/util.c
+  readline-6.3/vi_keymap.c
+  readline-6.3/vi_mode.c
+  readline-6.3/xfree.c
+  readline-6.3/xmalloc.c
+  readline-6.3/history.c
+  readline-6.3/histexpand.c
+  readline-6.3/histfile.c
+  readline-6.3/histsearch.c
+  readline-6.3/patchlevel
+  patching file readline.c
+  patching file patchlevel
+  patching file readline.c
+  patching file patchlevel
+  patching file util.c
+  patching file patchlevel
+  checking build system type... x86_64-unknown-linux-gnu
+  checking host system type... x86_64-unknown-linux-gnu
+  
+  Beginning configuration for readline-6.3 for x86_64-unknown-linux-gnu
+  
+  checking whether make sets $(MAKE)... yes
+  checking for gcc... gcc
+  checking whether the C compiler works... yes
+  checking for C compiler default output file name... a.out
+  checking for suffix of executables...
+  checking whether we are cross compiling... no
+  checking for suffix of object files... o
+  checking whether we are using the GNU C compiler... yes
+  checking whether gcc accepts -g... yes
+  checking for gcc option to accept ISO C89... none needed
+  checking how to run the C preprocessor... gcc -E
+  checking for grep that handles long lines and -e... /bin/grep
+  checking for egrep... /bin/grep -E
+  checking for ANSI C header files... yes
+  checking for sys/types.h... yes
+  checking for sys/stat.h... yes
+  checking for stdlib.h... yes
+  checking for string.h... yes
+  checking for memory.h... yes
+  checking for strings.h... yes
+  checking for inttypes.h... yes
+  checking for stdint.h... yes
+  checking for unistd.h... yes
+  checking minix/config.h usability... no
+  checking minix/config.h presence... no
+  checking for minix/config.h... no
+  checking whether it is safe to define __EXTENSIONS__... yes
+  checking whether gcc needs -traditional... no
+  checking for a BSD-compatible install... /usr/bin/install -c
+  checking for ar... ar
+  checking for ranlib... ranlib
+  checking for an ANSI C-conforming const... yes
+  checking for function prototypes... yes
+  checking whether char is unsigned... no
+  checking for working volatile... yes
+  checking return type of signal handlers... void
+  checking for size_t... yes
+  checking for ssize_t... yes
+  checking for ANSI C header files... (cached) yes
+  checking whether stat file-mode macros are broken... no
+  checking for dirent.h that defines DIR... yes
+  checking for library containing opendir... none required
+  checking for fcntl... yes
+  checking for kill... yes
+  checking for lstat... yes
+  checking for memmove... yes
+  checking for putenv... yes
+  checking for select... yes
+  checking for setenv... yes
+  checking for setlocale... yes
+  checking for strcasecmp... yes
+  checking for strpbrk... yes
+  checking for tcgetattr... yes
+  checking for vsnprintf... yes
+  checking for isascii... yes
+  checking for isxdigit... yes
+  checking for getpwent... yes
+  checking for getpwnam... yes
+  checking for getpwuid... yes
+  checking for working strcoll... yes
+  checking fcntl.h usability... yes
+  checking fcntl.h presence... yes
+  checking for fcntl.h... yes
+  checking for unistd.h... (cached) yes
+  checking for stdlib.h... (cached) yes
+  checking varargs.h usability... no
+  checking varargs.h presence... no
+  checking for varargs.h... no
+  checking stdarg.h usability... yes
+  checking stdarg.h presence... yes
+  checking for stdarg.h... yes
+  checking stdbool.h usability... yes
+  checking stdbool.h presence... yes
+  checking for stdbool.h... yes
+  checking for string.h... (cached) yes
+  checking for strings.h... (cached) yes
+  checking limits.h usability... yes
+  checking limits.h presence... yes
+  checking for limits.h... yes
+  checking locale.h usability... yes
+  checking locale.h presence... yes
+  checking for locale.h... yes
+  checking pwd.h usability... yes
+  checking pwd.h presence... yes
+  checking for pwd.h... yes
+  checking for memory.h... (cached) yes
+  checking termcap.h usability... no
+  checking termcap.h presence... no
+  checking for termcap.h... no
+  checking termios.h usability... yes
+  checking termios.h presence... yes
+  checking for termios.h... yes
+  checking termio.h usability... yes
+  checking termio.h presence... yes
+  checking for termio.h... yes
+  checking sys/pte.h usability... no
+  checking sys/pte.h presence... no
+  checking for sys/pte.h... no
+  checking sys/stream.h usability... no
+  checking sys/stream.h presence... no
+  checking for sys/stream.h... no
+  checking sys/select.h usability... yes
+  checking sys/select.h presence... yes
+  checking for sys/select.h... yes
+  checking sys/file.h usability... yes
+  checking sys/file.h presence... yes
+  checking for sys/file.h... yes
+  checking for sys/ptem.h... no
+  checking for special C compiler options needed for large files... no
+  checking for _FILE_OFFSET_BITS value needed for large files... no
+  checking for type of signal functions... posix
+  checking if signal handlers must be reinstalled when invoked... no
+  checking for presence of POSIX-style sigsetjmp/siglongjmp... present
+  checking for lstat... yes
+  checking whether or not strcoll and strcmp differ... no
+  checking whether the ctype macros accept non-ascii characters... no
+  checking whether getpw functions are declared in pwd.h... yes
+  checking whether termios.h defines TIOCGWINSZ... no
+  checking whether sys/ioctl.h defines TIOCGWINSZ... yes
+  checking for sig_atomic_t in signal.h... yes
+  checking whether signal handlers are of type void... yes
+  checking for TIOCSTAT in sys/ioctl.h... no
+  checking for FIONREAD in sys/ioctl.h... yes
+  checking for speed_t in sys/types.h... no
+  checking for struct winsize in sys/ioctl.h and termios.h... sys/ioctl.h
+  checking for struct dirent.d_ino... yes
+  checking for struct dirent.d_fileno... yes
+  checking whether AUDIT_USER_TTY is declared... yes
+  checking for tgetent... no
+  checking for tgetent in -ltermcap... no
+  checking for tgetent in -ltinfo... no
+  checking for tgetent in -lcurses... no
+  checking for tgetent in -lncurses... no
+  checking which library has the termcap functions... using gnutermcap
+  checking wctype.h usability... yes
+  checking wctype.h presence... yes
+  checking for wctype.h... yes
+  checking wchar.h usability... yes
+  checking wchar.h presence... yes
+  checking for wchar.h... yes
+  checking langinfo.h usability... yes
+  checking langinfo.h presence... yes
+  checking for langinfo.h... yes
+  checking for mbrlen... yes
+  checking for mbscasecmp... no
+  checking for mbscmp... no
+  checking for mbsnrtowcs... yes
+  checking for mbsrtowcs... yes
+  checking for mbschr... no
+  checking for wcrtomb... yes
+  checking for wcscoll... yes
+  checking for wcsdup... yes
+  checking for wcwidth... yes
+  checking for wctype... yes
+  checking for wcswidth... yes
+  checking whether mbrtowc and mbstate_t are properly declared... yes
+  checking for iswlower... yes
+  checking for iswupper... yes
+  checking for towlower... yes
+  checking for towupper... yes
+  checking for iswctype... yes
+  checking for nl_langinfo and CODESET... yes
+  checking for wchar_t in wchar.h... yes
+  checking for wctype_t in wctype.h... yes
+  checking for wint_t in wctype.h... yes
+  checking for wcwidth broken with unicode combining characters...
+  checking configuration for building shared libraries... supported
+  configure: creating ./config.status
+  config.status: creating Makefile
+  config.status: creating doc/Makefile
+  config.status: creating examples/Makefile
+  config.status: creating shlib/Makefile
+  config.status: creating config.h
+  config.status: executing default commands
+  rm -f readline.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O readline.c
+  rm -f vi_mode.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O vi_mode.c
+  rm -f funmap.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O funmap.c
+  rm -f keymaps.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O keymaps.c
+  rm -f parens.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O parens.c
+  rm -f search.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O search.c
+  rm -f rltty.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O rltty.c
+  rm -f complete.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O complete.c
+  In file included from complete.c:62:0:
+  complete.c: In function ‘fnwidth’:
+  rlmbutil.h:132:23: warning: implicit declaration of function ‘wcwidth’ [-Wimplicit-function-declaration]
+   #  define WCWIDTH(wc) wcwidth(wc)
+                         ^
+  complete.c:746:12: note: in expansion of macro ‘WCWIDTH’
+          w = WCWIDTH (wc);
+              ^
+  rm -f bind.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O bind.c
+  rm -f isearch.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O isearch.c
+  rm -f display.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O display.c
+  In file included from display.c:50:0:
+  display.c: In function ‘rl_redisplay’:
+  rlmbutil.h:132:23: warning: implicit declaration of function ‘wcwidth’ [-Wimplicit-function-declaration]
+   #  define WCWIDTH(wc) wcwidth(wc)
+                         ^
+  display.c:804:15: note: in expansion of macro ‘WCWIDTH’
+          temp = WCWIDTH (wc);
+                 ^
+  rm -f signals.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O signals.c
+  rm -f util.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O util.c
+  rm -f kill.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O kill.c
+  rm -f undo.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O undo.c
+  rm -f macro.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O macro.c
+  rm -f input.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O input.c
+  rm -f callback.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O callback.c
+  rm -f terminal.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O terminal.c
+  rm -f text.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O text.c
+  rm -f nls.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O nls.c
+  rm -f misc.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O misc.c
+  rm -f history.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O history.c
+  rm -f histexpand.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O histexpand.c
+  rm -f histfile.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O histfile.c
+  rm -f histsearch.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O histsearch.c
+  rm -f shell.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O shell.c
+  rm -f mbutil.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O mbutil.c
+  In file included from mbutil.c:47:0:
+  mbutil.c: In function ‘_rl_find_next_mbchar_internal’:
+  rlmbutil.h:132:23: warning: implicit declaration of function ‘wcwidth’ [-Wimplicit-function-declaration]
+   #  define WCWIDTH(wc) wcwidth(wc)
+                         ^
+  mbutil.c:125:12: note: in expansion of macro ‘WCWIDTH’
+          if (WCWIDTH (wc) == 0)
+              ^
+  rm -f tilde.o
+  gcc -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O -DREADLINE_LIBRARY -c ./tilde.c
+  rm -f colors.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O colors.c
+  rm -f parse-colors.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O parse-colors.c
+  rm -f xmalloc.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O xmalloc.c
+  rm -f xfree.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O xfree.c
+  rm -f compat.o
+  gcc -c -DHAVE_CONFIG_H   -DNEED_EXTERN_PC -fPIC -I. -I. -DRL_LIBRARY_VERSION='"6.3"' -g -O compat.c
+  rm -f libreadline.a
+  ar cr libreadline.a readline.o vi_mode.o funmap.o keymaps.o parens.o search.o rltty.o complete.o bind.o isearch.o display.o signals.o util.o kill.o undo.o macro.o input.o callback.o terminal.o text.o nls.o misc.o history.o histexpand.o histfile.o histsearch.o shell.o mbutil.o tilde.o colors.o parse-colors.o xmalloc.o xfree.o compat.o
+  test -n "ranlib" && ranlib libreadline.a
+  rm -f libhistory.a
+  ar cr libhistory.a history.o histexpand.o histfile.o histsearch.o shell.o mbutil.o xmalloc.o xfree.o
+  test -n "ranlib" && ranlib libhistory.a
+  
+  ============ Building the readline extension module ============
+  
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build/lib.linux-x86_64-3.5
+  copying readline.py -> build/lib.linux-x86_64-3.5
+  running egg_info
+  writing gnureadline.egg-info/PKG-INFO
+  writing dependency_links to gnureadline.egg-info/dependency_links.txt
+  writing top-level names to gnureadline.egg-info/top_level.txt
+  reading manifest file 'gnureadline.egg-info/SOURCES.txt'
+  reading manifest template 'MANIFEST.in'
+  writing manifest file 'gnureadline.egg-info/SOURCES.txt'
+  running build_ext
+  building 'gnureadline' extension
+  creating build/temp.linux-x86_64-3.5
+  creating build/temp.linux-x86_64-3.5/Modules
+  creating build/temp.linux-x86_64-3.5/Modules/3.x
+  x86_64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -Wstrict-prototypes -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DHAVE_RL_CALLBACK -DHAVE_RL_CATCH_SIGNAL -DHAVE_RL_COMPLETION_APPEND_CHARACTER -DHAVE_RL_COMPLETION_DISPLAY_MATCHES_HOOK -DHAVE_RL_COMPLETION_MATCHES -DHAVE_RL_COMPLETION_SUPPRESS_APPEND -DHAVE_RL_PRE_INPUT_HOOK -I. -I/usr/include/python3.5m -I/home/nan/StanfordCS231/assignment1/.env/include/python3.5m -c Modules/3.x/readline.c -o build/temp.linux-x86_64-3.5/Modules/3.x/readline.o
+  In file included from Modules/3.x/readline.c:31:0:
+  ./readline/readline.h:385:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+   extern int rl_message ();
+   ^
+  Modules/3.x/readline.c: In function ‘PyInit_gnureadline’:
+  Modules/3.x/readline.c:1207:34: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+       PyOS_ReadlineFunctionPointer = call_readline;
+                                    ^
+  x86_64-linux-gnu-gcc -pthread -shared -Wl,-O1 -Wl,-Bsymbolic-functions -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-Bsymbolic-functions -Wl,-z,relro -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 build/temp.linux-x86_64-3.5/Modules/3.x/readline.o readline/libreadline.a readline/libhistory.a -lncurses -o build/lib.linux-x86_64-3.5/gnureadline.cpython-35m-x86_64-linux-gnu.so
+  /usr/bin/ld: cannot find -lncurses
+  collect2: error: ld returned 1 exit status
+  error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+  
+  ----------------------------------------
+  Failed building wheel for gnureadline
+  Running setup.py clean for gnureadline
+  Running setup.py bdist_wheel for pexpect ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/f2/65/89/09578bcd0efeabc7e2b0079cd62d3955c1477f2e55aa5031a4
+  Running setup.py bdist_wheel for pickleshare ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/a6/05/a5/5251f5e1ba43046224c3b3abb691ce9664bd4eae6985cafb96
+  Running setup.py bdist_wheel for ptyprocess ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/e0/41/74/55388cd8dbfe115368c9e9bdc8429ddd430ba9b7ef50a4b26b
+  Running setup.py bdist_wheel for pyzmq ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/b6/00/8c/c95a083ea3052ca64e6c2284ee03c333106e96c385470893ff
+  Running setup.py bdist_wheel for simplegeneric ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/7b/31/08/c85e74c84188cbec6a6827beec4d640f2bd78ae003dc1ec09d
+  Running setup.py bdist_wheel for site ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/31/76/48/baee4a0141875d1fe4b523e5007a9643a8e54a8c1158601da4
+  Running setup.py bdist_wheel for terminado ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/52/5d/96/d1dba5ce7fc8caf9b71c663d758cd83b7d5a06f8ef0addc35c
+  Running setup.py bdist_wheel for tornado ... done
+  Stored in directory: /home/nan/.cache/pip/wheels/df/20/c7/38911d3d7ac9ae3c6c1b73f01bc61d8fdb46c7fad1a720d394
+Successfully built MarkupSafe argparse backports.ssl-match-hostname future pexpect pickleshare ptyprocess pyzmq simplegeneric site terminado tornado
+Failed to build Pillow gnureadline
+Installing collected packages: Cython, MarkupSafe, Jinja2, Pillow, Pygments, appnope, argparse, backports-abc, backports.ssl-match-hostname, certifi, six, cycler, decorator, future, gnureadline, ipython-genutils, traitlets, jupyter-core, pyzmq, jupyter-client, ptyprocess, pexpect, path.py, pickleshare, simplegeneric, ipython, ipykernel, jsonschema, nbformat, mistune, nbconvert, tornado, terminado, notebook, ipywidgets, qtconsole, jupyter-console, jupyter, numpy, pytz, python-dateutil, pyparsing, matplotlib, scipy, singledispatch, site
+  Running setup.py install for Pillow ... error
+    Complete output from command /home/nan/StanfordCS231/assignment1/.env/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-j7028rsn/Pillow/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-c6tjfwtv-record/install-record.txt --single-version-externally-managed --compile --install-headers /home/nan/StanfordCS231/assignment1/.env/include/site/python3.5/Pillow:
+    running install
+    running build
+    running build_py
+    creating build
+    creating build/lib.linux-x86_64-3.5
+    creating build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PalmImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PcfFontFile.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/MpegImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/TgaImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageStat.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageCms.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageFont.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImtImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/WmfImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/MpoImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/JpegPresets.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageDraw.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PpmImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/TarIO.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/OleFileIO.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/BufrStubImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/SgiImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PcdImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageSequence.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageOps.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/IcnsImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/FpxImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/IcoImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/_util.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/MicImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PcxImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PixarImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/BmpImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/IptcImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/__init__.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/Image.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageGrab.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageFilter.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PaletteFile.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PngImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ContainerIO.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/Jpeg2KImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/SpiderImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PyAccess.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/GimpGradientFile.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/_binary.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageShow.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageTk.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/FliImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/XpmImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageMath.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/WebPImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/XVThumbImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ExifTags.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/FitsStubImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageDraw2.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/TiffImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImagePalette.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PSDraw.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageQt.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/MspImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageChops.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PsdImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/BdfFontFile.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageTransform.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/GimpPaletteFile.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/WalImageFile.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/XbmImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageMode.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageFile.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/EpsImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/GbrImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageWin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/features.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/TiffTags.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/GifImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/CurImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageEnhance.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageColor.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/GdImageFile.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/JpegImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/SunImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImagePath.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/DcxImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/PdfImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/GribStubImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/McIdasImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/FontFile.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/ImageMorph.py -> build/lib.linux-x86_64-3.5/PIL
+    copying PIL/Hdf5StubImagePlugin.py -> build/lib.linux-x86_64-3.5/PIL
+    running egg_info
+    writing top-level names to Pillow.egg-info/top_level.txt
+    writing Pillow.egg-info/PKG-INFO
+    writing dependency_links to Pillow.egg-info/dependency_links.txt
+    reading manifest file 'Pillow.egg-info/SOURCES.txt'
+    reading manifest template 'MANIFEST.in'
+    writing manifest file 'Pillow.egg-info/SOURCES.txt'
+    copying PIL/OleFileIO-README.md -> build/lib.linux-x86_64-3.5/PIL
+    running build_ext
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-build-j7028rsn/Pillow/setup.py", line 767, in <module>
+        zip_safe=not debug_build(),
+      File "/usr/lib/python3.5/distutils/core.py", line 148, in setup
+        dist.run_commands()
+      File "/usr/lib/python3.5/distutils/dist.py", line 955, in run_commands
+        self.run_command(cmd)
+      File "/usr/lib/python3.5/distutils/dist.py", line 974, in run_command
+        cmd_obj.run()
+      File "/home/nan/StanfordCS231/assignment1/.env/lib/python3.5/site-packages/setuptools/command/install.py", line 61, in run
+        return orig.install.run(self)
+      File "/usr/lib/python3.5/distutils/command/install.py", line 583, in run
+        self.run_command('build')
+      File "/usr/lib/python3.5/distutils/cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "/usr/lib/python3.5/distutils/dist.py", line 974, in run_command
+        cmd_obj.run()
+      File "/usr/lib/python3.5/distutils/command/build.py", line 135, in run
+        self.run_command(cmd_name)
+      File "/usr/lib/python3.5/distutils/cmd.py", line 313, in run_command
+        self.distribution.run_command(command)
+      File "/usr/lib/python3.5/distutils/dist.py", line 974, in run_command
+        cmd_obj.run()
+      File "/usr/lib/python3.5/distutils/command/build_ext.py", line 338, in run
+        self.build_extensions()
+      File "/tmp/pip-build-j7028rsn/Pillow/setup.py", line 515, in build_extensions
+        % (f, f))
+    ValueError: --enable-jpeg requested but jpeg not found, aborting.
+    
+    ----------------------------------------
+Command "/home/nan/StanfordCS231/assignment1/.env/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-build-j7028rsn/Pillow/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-c6tjfwtv-record/install-record.txt --single-version-externally-managed --compile --install-headers /home/nan/StanfordCS231/assignment1/.env/include/site/python3.5/Pillow" failed with error code 1 in /tmp/pip-build-j7028rsn/Pillow/
+
